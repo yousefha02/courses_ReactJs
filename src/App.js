@@ -1,10 +1,17 @@
 import './App.css';
 import {createTheme,ThemeProvider} from '@mui/material'
 import { useEffect } from 'react';
-import { Routes ,Route,Navigate} from 'react-router-dom';
+import { Routes ,Route} from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 const theme = createTheme({
   direction:"rtl",
+  palette:{
+    primary:{
+      main:"#000",
+      color:"white"
+    }
+  }
 })
 
 function App() {
@@ -17,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
+        <Navbar/>
         <Routes>
         </Routes>
       </ThemeProvider>
