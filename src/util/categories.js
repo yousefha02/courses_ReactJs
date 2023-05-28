@@ -1,0 +1,56 @@
+export default [
+    {
+        id:"1",
+        title:"البرمجة",
+        image:"https://www.wikicourses.net/images/programin.jpg",
+        coursesNumber:"125"
+    },
+    {
+        id:"2",
+        title:"شبكات",
+        image:"https://www.wikicourses.net/images/networking.jpg",
+        coursesNumber:"8"
+    },
+    {
+        id:"3",
+        title:"تصميم",
+        image:"https://www.wikicourses.net/images/desgin.jpg",
+        coursesNumber:"12"
+    },
+    {
+        id:"4",
+        title:"الكهرباء والميكانيك",
+        image:"https://www.wikicourses.net/images/electrical_engineer.jpg",
+        coursesNumber:"23"
+    },
+    {
+        id:"5",
+        title:"لغات",
+        image:"https://www.wikicourses.net/images/lang.jpg",
+        coursesNumber:"15"
+    },
+    {
+        id:"6",
+        title:"صيانة",
+        image:"https://www.wikicourses.net/images/fixing.jpg",
+        coursesNumber:"2"
+    },
+    {
+        id:"7",
+        title:"تسويق",
+        image:"https://www.wikicourses.net/images/Marketing.jpg",
+        coursesNumber:"24"
+    },
+    {
+        id:"8",
+        title:"قواعد بيانات",
+        image:"https://www.wikicourses.net/images/database.jpg",
+        coursesNumber:"5"
+    },
+    {
+        id:"9",
+        title:"صيانة",
+        image:"https://www.wikicourses.net/images/category/maintenance.png",
+        coursesNumber:"1"
+    }
+]
