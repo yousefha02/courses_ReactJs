@@ -1,6 +1,6 @@
 import { Container, Grid, Typography,styled ,Box,Button} from '@mui/material'
 import React from 'react'
-import CategoryBox from './CategoryBox'
+import CategoryBox from '../reusableUi/CategoryBox'
 import categories from '../../util/categories'
 import { Link } from 'react-router-dom'
 
@@ -8,7 +8,7 @@ const Title = styled(Typography)({
     fontSize:"32px",
     fontWeight:"700",
     textAlign:"center",
-    marginBottom:"32px"
+    marginBottom:"38px"
 })
 
 export default function Categories() {
