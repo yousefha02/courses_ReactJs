@@ -14,6 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { Link, useNavigate } from 'react-router-dom';
 
 const drawerWidth = 240;
 const navItems = [
@@ -31,6 +32,8 @@ function Navbar(props) {
         setMobileOpen((prevState) => !prevState);
     };
 
+    const navigate = useNavigate()
+
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
         <Typography variant="h6" sx={{ my: 2 }}>
@@ -39,11 +42,13 @@ function Navbar(props) {
         <Divider />
         <List>
             {navItems.map((item) => (
-            <ListItem key={item} disablePadding>
-                <ListItemButton sx={{ textAlign: 'center' }}>
-                <ListItemText primary={item.title} />
-                </ListItemButton>
-            </ListItem>
+            <Link to={`/${item.link}`} key={item}>
+                <ListItem disablePadding>
+                    <ListItemButton sx={{ textAlign: 'center' }}>
+                    <ListItemText primary={item.title} />
+                    </ListItemButton>
+                </ListItem>
+            </Link>
             ))}
         </List>
         </Box>
@@ -74,7 +79,7 @@ function Navbar(props) {
             </Typography>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                 {navItems.map((item) => (
-                <Button key={item} sx={{ color: '#fff' }}>
+                <Button key={item} sx={{ color: '#fff' }} onClick={()=>navigate(`/${item.link}`)}>
                     {item.title}
                 </Button>
                 ))}

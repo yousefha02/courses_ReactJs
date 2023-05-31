@@ -2,7 +2,7 @@ import { Container, Grid, Typography,styled ,Box,Button} from '@mui/material'
 import React from 'react'
 import CategoryBox from '../reusableUi/CategoryBox'
 import categories from '../../util/categories'
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 
 const Title = styled(Typography)({
     fontSize:"32px",
@@ -12,6 +12,8 @@ const Title = styled(Typography)({
 })
 
 export default function Categories() {
+    const navigate = useNavigate()
+
     return (
         <Container sx={{marginY:"60px"}}>
             <Title>تصنيفات الكورسات</Title>
@@ -20,7 +22,7 @@ export default function Categories() {
                     categories.slice(0,6).map((category,index)=>
                     {
                         return(
-                            <Grid item xs={4}>
+                            <Grid item xs={12} sm={6} lg={4}>
                                 <Link to={`/category/${category.id}`}>
                                     <CategoryBox key={index+'aq1'} category={category}/>
                                 </Link>
@@ -30,7 +32,7 @@ export default function Categories() {
                 }
             </Grid>
             <Box sx={{display:"flex",justifyContent:'center',marginTop:"45px"}}>
-                <Button color="secondary" variant='contained'>ما رأيك بالمزيد ... اضغط هنا</Button>
+                <Button color="secondary" variant='contained' onClick={()=>navigate('/courses')}>ما رأيك بالمزيد ... اضغط هنا</Button>
             </Box>
         </Container>
     )

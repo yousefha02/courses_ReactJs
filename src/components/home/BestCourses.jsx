@@ -22,7 +22,7 @@ export default function BestCourses() {
                     courses.slice(0,6).map((course,index)=>
                     {
                         return(
-                            <Grid item xs={4} key={index+'as1'}>
+                            <Grid item xs={12} sm={6} lg={4} key={index+'as1'}>
                                 <Link to={`/course/${course.id}`}>
                                     <Course course={course}/>
                                 </Link>
