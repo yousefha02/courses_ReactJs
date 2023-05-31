@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { Routes ,Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Footer from './components/Footer';
 
 const theme = createTheme({
   direction:"rtl",
@@ -33,6 +34,7 @@ function App() {
         <Routes>
           <Route element={<Home/>} path=''/>
         </Routes>
+        <Footer/>
       </ThemeProvider>
     </div>
   );
