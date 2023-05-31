@@ -36,9 +36,11 @@ function Navbar(props) {
 
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-        <Typography variant="h6" sx={{ my: 2 }}>
-            ويكي كورس
-        </Typography>
+        <Link to="/">
+            <Typography variant="h6" sx={{ my: 2 }}>
+                ويكي كورس
+            </Typography>
+        </Link>
         <Divider />
         <List>
             {navItems.map((item) => (
@@ -75,7 +77,7 @@ function Navbar(props) {
                 component="div"
                 sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             >
-                ويكي كورس
+                <Link to="/">ويكي كورس</Link>
             </Typography>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                 {navItems.map((item) => (

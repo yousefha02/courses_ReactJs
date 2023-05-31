@@ -1,8 +1,9 @@
-import { Box,Container,styled,Grid } from '@mui/material'
+import { Container ,styled,Grid} from '@mui/material'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Course from '../reusableUi/Course'
-import courses from '../../util/courses'
+import courses from '../util/courses'
+import Course from '../components/reusableUi/Course'
+import {useParams } from 'react-router-dom'
 
 const Title = styled('p')({
     fontSize:"32px",
@@ -11,15 +12,15 @@ const Title = styled('p')({
     marginBottom:"38px"
 })
 
+export default function Courses() {
+    const {id} = useParams()
 
-export default function BestCourses() {
     return (
-        <Box sx={{backgroundColor:"#f9f8f8",paddingY:"40px"}}>
-            <Container>
-                <Title>كورسات متميزة</Title>
+        <Container sx={{marginY:"110px"}}>
+                <Title>كورسات </Title>
                 <Grid container spacing={3}>
                 {
-                    courses.slice(0,6).map((course,index)=>
+                    courses.filter(course=>course.categorId===id).map((course,index)=>
                     {
                         return(
                             <Grid item xs={12} sm={6} lg={4} key={index+'as1'}>
@@ -31,7 +32,6 @@ export default function BestCourses() {
                     })
                 }
                 </Grid>
-            </Container>
-        </Box>  
+        </Container>
     )
 }

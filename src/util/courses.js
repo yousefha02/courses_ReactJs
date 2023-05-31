@@ -10,7 +10,7 @@ export default [
         lessons:"12"
     },
     {
-        id:"2",
+        id:"6",
         image:"https://www.wikicourses.net/images/category/sql.png",
         title:"SQL",
         categorId:"2",
@@ -20,7 +20,7 @@ export default [
         lessons:"10"
     },
     {
-        id:"1",
+        id:"3",
         image:"https://www.wikicourses.net/images/category/oracel.png",
         title:"أوراكل | Oracel",
         categorId:"1",
@@ -40,7 +40,7 @@ export default [
         lessons:"19"
     },
     {
-        id:"1",
+        id:"4",
         image:"https://www.wikicourses.net/images/category/oracel.png",
         title:"أوراكل | Oracel",
         categorId:"1",
@@ -50,7 +50,7 @@ export default [
         lessons:"13"
     },
     {
-        id:"2",
+        id:"5",
         image:"https://www.wikicourses.net/images/category/sql.png",
         title:"SQL",
         categorId:"2",
