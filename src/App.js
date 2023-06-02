@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import Categoires from './pages/Categoires';
 import Courses from './pages/Courses';
+import SingleCourse from './pages/SingleCourse';
 
 const theme = createTheme({
   direction:"rtl",
@@ -37,6 +38,7 @@ function App() {
           <Route element={<Home/>} path=''/>
           <Route element={<Categoires/>} path='courses'/>
           <Route element={<Courses/>} path='category/:id'/>
+          <Route element={<SingleCourse/>} path='course/:id'/>
         </Routes>
         <Footer/>
       </ThemeProvider>
