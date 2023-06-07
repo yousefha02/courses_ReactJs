@@ -55,4 +55,60 @@ export default [
         link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
         time:"10:26"
     },
+    {
+        id:"9",
+        courseId:"1",
+        title:"مقدمة و تنصيب الأدوات",
+        link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
+        time:"10:26"
+    },
+    {
+        id:"10",
+        courseId:"1",
+        title:"مقدمة و تنصيب الأدوات",
+        link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
+        time:"11:26"
+    },
+    {
+        id:"11",
+        courseId:"1",
+        title:"مقدمة و تنصيب الأدوات",
+        link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
+        time:"12:12"
+    },
+    {
+        id:"12",
+        courseId:"1",
+        title:"مقدمة و تنصيب الأدوات",
+        link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
+        time:"05:10"
+    },
+    {
+        id:"13",
+        courseId:"1",
+        title:"مقدمة و تنصيب الأدوات",
+        link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
+        time:"10:26"
+    },
+    {
+        id:"14",
+        courseId:"",
+        title:"مقدمة و تنصيب الأدوات",
+        link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
+        time:"06:34"
+    },
+    {
+        id:"15",
+        courseId:"2",
+        title:"مقدمة و تنصيب الأدوات",
+        link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
+        time:"03:50"
+    },
+    {
+        id:"16",
+        courseId:"2",
+        title:"مقدمة و تنصيب الأدوات",
+        link:"https://www.youtube.com/watch?v=bOfDU8n-l_o",
+        time:"10:26"
+    },
 ]

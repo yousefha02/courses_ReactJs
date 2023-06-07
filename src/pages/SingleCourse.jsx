@@ -22,11 +22,11 @@ export default function SingleCourse() {
             <Box sx={{backgroundColor:"#f3f8f9",paddingY:"60px"}}>
                 <Container>
                     <Grid container spacing={3}>
-                        <Grid xs={8}>
+                        <Grid item xs={12} md={7} lg={8}>
                             <Lessons/>
                         </Grid>
-                        <Grid xs={4}>
-                            <Details/>
+                        <Grid item xs={12} md={5} lg={4}>
+                            <Details course={course}/>
                         </Grid>
                     </Grid>
                 </Container>

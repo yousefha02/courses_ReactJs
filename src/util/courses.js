@@ -6,7 +6,7 @@ export default [
         categorId:"1",
         teacher:"يوسف أبوهاني",
         period:"820",
-        language:"arabic",
+        language:"العربية",
         lessons:"12"
     },
     {
@@ -26,7 +26,7 @@ export default [
         categorId:"1",
         teacher:"يوسف أبوهاني",
         period:"820",
-        language:"arabic",
+        language:"الانجليزية",
         lessons:"5"
     },
     {
@@ -46,7 +46,7 @@ export default [
         categorId:"1",
         teacher:"يوسف أبوهاني",
         period:"820",
-        language:"arabic",
+        language:"الانجليزية",
         lessons:"13"
     },
     {
