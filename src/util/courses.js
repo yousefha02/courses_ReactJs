@@ -4,7 +4,7 @@ export default [
         image:"https://www.wikicourses.net/images/category/oracel.png",
         title:"أوراكل | Oracel",
         categorId:"1",
-        teacher:"يوسف أبوهاني",
+        teacher:"يوسف ",
         period:"820",
         language:"العربية",
         lessons:"12"
@@ -14,7 +14,7 @@ export default [
         image:"https://www.wikicourses.net/images/category/sql.png",
         title:"SQL",
         categorId:"2",
-        teacher:"يوسف أبوهاني",
+        teacher:"يوسف ",
         period:"820",
         language:"العربية",
         lessons:"10"
@@ -24,7 +24,7 @@ export default [
         image:"https://www.wikicourses.net/images/category/oracel.png",
         title:"أوراكل | Oracel",
         categorId:"1",
-        teacher:"يوسف أبوهاني",
+        teacher:"يوسف ",
         period:"820",
         language:"الانجليزية",
         lessons:"5"
@@ -34,7 +34,7 @@ export default [
         image:"https://www.wikicourses.net/images/category/sql.png",
         title:"SQL",
         categorId:"2",
-        teacher:"يوسف أبوهاني",
+        teacher:"يوسف ",
         period:"820",
         language:"العربية",
         lessons:"19"
@@ -44,7 +44,7 @@ export default [
         image:"https://www.wikicourses.net/images/category/oracel.png",
         title:"أوراكل | Oracel",
         categorId:"1",
-        teacher:"يوسف أبوهاني",
+        teacher:"يوسف ",
         period:"820",
         language:"الانجليزية",
         lessons:"13"
@@ -54,7 +54,7 @@ export default [
         image:"https://www.wikicourses.net/images/category/sql.png",
         title:"SQL",
         categorId:"2",
-        teacher:"يوسف أبوهاني",
+        teacher:"يوسف ",
         period:"820",
         language:"العربية",
         lessons:"24"
