@@ -13,14 +13,13 @@ const Title = styled('p')({
 })
 
 export default function Courses() {
-    const {id} = useParams()
 
     return (
         <Container sx={{marginY:"110px"}}>
                 <Title>كورسات </Title>
                 <Grid container spacing={3}>
                 {
-                    courses.filter(course=>course.categorId===id).map((course,index)=>
+                    courses.map((course,index)=>
                     {
                         return(
                             <Grid item xs={12} sm={6} lg={4} key={index+'as1'}>

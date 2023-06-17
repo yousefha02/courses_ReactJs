@@ -20,8 +20,6 @@ const drawerWidth = 240;
 const navItems = [
     {title:"الرئيسية",link:""},
     {title:"كورسات",link:"courses"},
-    {title:"اتصل بنا",link:"call-us"},
-    {title:"سياسية الخصوصية",link:"privacy-policy"},
 ];
 
 function Navbar(props) {
